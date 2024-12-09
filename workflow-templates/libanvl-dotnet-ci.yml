@@ -164,7 +164,7 @@ jobs:
           name: nupkg
           path: ./nupkg
       - name: 📦 Push Package to GitHub
-        uses: libanvl/github/actions/push-to-nuget@main
+        uses: libanvl/ci/.github/actions/push-to-nuget-feed@main
         with:
           nuget-api-key: ${{ secrets.GITHUB_TOKEN }}
           nuget-source: 'https://nuget.pkg.github.com/${{ github.repository_owner }}/index.json'
