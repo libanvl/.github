@@ -1,0 +1,18 @@
+{
+    "name": "Libanvl DocFx",
+    "description": "A DocFx workflow template for libanvl",
+    "iconName": "octicon book",
+    "categories": [
+        "continuous-integration",
+        "code-quality",
+        "testing",
+        "utilities"
+    ],
+    "filePatterns": [
+        ".*\\.cs$",
+        ".*\\.csproj$",
+        ".*\\.sln$",
+        ".*\\.slnx$",
+        ".*\\.md$"
+    ]
+}

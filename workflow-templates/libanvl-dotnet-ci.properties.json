@@ -1,0 +1,19 @@
+{
+    "name": "Libanvl .NET CI",
+    "description": "A .NET CI workflow template for libanvl",
+    "iconName": "octicon cpu",
+    "categories": [
+        "continuous-integration",
+        "code-quality",
+        "testing",
+        "utilities",
+        "C#",
+        "DotNetConsole"
+    ],
+    "filePatterns": [
+        ".*\\.cs$",
+        ".*\\.csproj$",
+        ".*\\.sln$",
+        ".*\\.slnx$"
+    ]
+}

@@ -1,0 +1,15 @@
+{
+    "name": "Libanvl NuGet Release",
+    "description": "A NuGet release workflow template for libanvl",
+    "iconName": "octicon package",
+    "categories": [
+        "continuous-integration",
+        "utilities"
+    ],
+    "filePatterns": [
+        ".*\\.cs$",
+        ".*\\.csproj$",
+        ".*\\.sln$",
+        ".*\\.slnx$"
+    ]
+}
