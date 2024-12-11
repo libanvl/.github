@@ -3,7 +3,7 @@ name: 📚 Docs
 on:
   push:
     branches:
-    - main
+    - $default-branch
 
 concurrency:
   group: pages
