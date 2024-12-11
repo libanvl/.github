@@ -11,8 +11,7 @@ concurrency:
 
 jobs:
   publish-docs:
-    environment:
-      name: github-pages
-      url: ${{ publish-docs.outputs.page_url }}
     uses: libanvl/ci/.github/workflows/dotnet-docfx.yml@main
+    with:
+      environment: 'github-pages'
     secrets: inherit
