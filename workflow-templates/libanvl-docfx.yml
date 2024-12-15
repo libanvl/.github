@@ -1,4 +1,4 @@
-name: 📚 Docs
+name: 📑 Docs
 
 on:
   push:
@@ -13,5 +13,6 @@ jobs:
   publish-docs:
     uses: libanvl/ci/.github/workflows/dotnet-docfx.yml@main
     with:
-      environment: 'github-pages'
+      environment: github-pages
+      docfx-config: 'docs/docfx.json'
     secrets: inherit
